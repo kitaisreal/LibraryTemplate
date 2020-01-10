@@ -1,6 +1,6 @@
 //
-//  LibraryTemplate.swift
-//  LibraryTemplate
+//  LibraryTemplateTests.swift
+//  LibraryTemplateTests
 //
 //  Created by Kita, Maksim on 12/29/19.
 //  Copyright © 2019 Kita, Maksim. All rights reserved.
@@ -9,7 +9,7 @@
 import XCTest
 @testable import LibraryTemplate
 
-class LibrarySetupTests: XCTestCase {
+class LibraryTemplateTests: XCTestCase {
 
     func testGetPlatform() {
         let actual = LibraryTest.getPlatform()

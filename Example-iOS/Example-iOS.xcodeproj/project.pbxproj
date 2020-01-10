@@ -38,7 +38,6 @@
 		E4534AE023C7189800465DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4534AE323C7189800465DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4534AE523C7189800465DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4534AEC23C718EA00465DC4 /* LibrarySetup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibrarySetup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4857C3A23C86766004BF7D5 /* LibraryTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibraryTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				E4857C3A23C86766004BF7D5 /* LibraryTemplate.framework */,
-				E4534AEC23C718EA00465DC4 /* LibrarySetup.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -15,12 +15,12 @@
 		E407F8A123B8904D002D360C /* LibraryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E407F89F23B89048002D360C /* LibraryTest.swift */; };
 		E407F8A223B8904D002D360C /* LibraryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E407F89F23B89048002D360C /* LibraryTest.swift */; };
 		E407F8A323B8904E002D360C /* LibraryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E407F89F23B89048002D360C /* LibraryTest.swift */; };
-		E407F8AC23B899AD002D360C /* LibrarySetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E407F8AB23B899AD002D360C /* LibrarySetupTests.swift */; };
 		E407F8AE23B899AD002D360C /* LibraryTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E407F86C23B88E54002D360C /* LibraryTemplate.framework */; };
 		E407F8BE23B89A35002D360C /* LibraryTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E407F88623B88E95002D360C /* LibraryTemplate.framework */; };
 		E407F8CD23B89A42002D360C /* LibraryTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E407F89323B88EAF002D360C /* LibraryTemplate.framework */; };
-		E407F8D423B89B22002D360C /* LibrarySetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E407F8AB23B899AD002D360C /* LibrarySetupTests.swift */; };
-		E407F8D523B89B22002D360C /* LibrarySetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E407F8AB23B899AD002D360C /* LibrarySetupTests.swift */; };
+		E4E5EBA223C89FC600D249E2 /* LibraryTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E5EBA023C89FC300D249E2 /* LibraryTemplateTests.swift */; };
+		E4E5EBA323C89FC600D249E2 /* LibraryTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E5EBA023C89FC300D249E2 /* LibraryTemplateTests.swift */; };
+		E4E5EBA423C89FC600D249E2 /* LibraryTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E5EBA023C89FC300D249E2 /* LibraryTemplateTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +56,10 @@
 		E407F89623B88EAF002D360C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E407F89F23B89048002D360C /* LibraryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTest.swift; sourceTree = "<group>"; };
 		E407F8A923B899AD002D360C /* LibraryTemplateTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LibraryTemplateTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E407F8AB23B899AD002D360C /* LibrarySetupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrarySetupTests.swift; sourceTree = "<group>"; };
 		E407F8B923B89A34002D360C /* LibraryTemplateTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LibraryTemplateTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E407F8C823B89A42002D360C /* LibraryTemplateTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LibraryTemplateTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E407F8CC23B89A42002D360C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E5EBA023C89FC300D249E2 /* LibraryTemplateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryTemplateTests.swift; sourceTree = "<group>"; };
 		E4E78A9723C50B6200C96E1C /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,7 +164,7 @@
 		E407F8AA23B899AD002D360C /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				E407F8AB23B899AD002D360C /* LibrarySetupTests.swift */,
+				E4E5EBA023C89FC300D249E2 /* LibraryTemplateTests.swift */,
 				E407F8D323B89AA8002D360C /* Supporting Files */,
 			);
 			path = Tests;
@@ -497,7 +497,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E407F8AC23B899AD002D360C /* LibrarySetupTests.swift in Sources */,
+				E4E5EBA223C89FC600D249E2 /* LibraryTemplateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,7 +505,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E407F8D423B89B22002D360C /* LibrarySetupTests.swift in Sources */,
+				E4E5EBA323C89FC600D249E2 /* LibraryTemplateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,7 +513,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E407F8D523B89B22002D360C /* LibrarySetupTests.swift in Sources */,
+				E4E5EBA423C89FC600D249E2 /* LibraryTemplateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
