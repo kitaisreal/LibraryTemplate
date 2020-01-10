@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WORKSPACE=LibrarySetup.xcworkspace
+WORKSPACE=LibraryTemplate.xcworkspace
 BUILD_DIRECTORY="build"
 CONFIGURATION=Release
 
