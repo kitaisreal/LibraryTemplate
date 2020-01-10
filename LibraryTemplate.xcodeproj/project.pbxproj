@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E407F87023B88E54002D360C /* LibrarySetup.h in Headers */ = {isa = PBXBuildFile; fileRef = E407F86E23B88E54002D360C /* LibrarySetup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E407F89B23B88FEF002D360C /* LibrarySetup.h in Headers */ = {isa = PBXBuildFile; fileRef = E407F86E23B88E54002D360C /* LibrarySetup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E407F89D23B88FF0002D360C /* LibrarySetup.h in Headers */ = {isa = PBXBuildFile; fileRef = E407F86E23B88E54002D360C /* LibrarySetup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E407F89E23B89011002D360C /* LibrarySetup.h in Headers */ = {isa = PBXBuildFile; fileRef = E407F86E23B88E54002D360C /* LibrarySetup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E407F87023B88E54002D360C /* LibraryTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = E407F86E23B88E54002D360C /* LibraryTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E407F89B23B88FEF002D360C /* LibraryTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = E407F86E23B88E54002D360C /* LibraryTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E407F89D23B88FF0002D360C /* LibraryTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = E407F86E23B88E54002D360C /* LibraryTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E407F89E23B89011002D360C /* LibraryTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = E407F86E23B88E54002D360C /* LibraryTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E407F8A023B89048002D360C /* LibraryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E407F89F23B89048002D360C /* LibraryTest.swift */; };
 		E407F8A123B8904D002D360C /* LibraryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E407F89F23B89048002D360C /* LibraryTest.swift */; };
 		E407F8A223B8904D002D360C /* LibraryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E407F89F23B89048002D360C /* LibraryTest.swift */; };
@@ -49,7 +49,7 @@
 
 /* Begin PBXFileReference section */
 		E407F86C23B88E54002D360C /* LibraryTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibraryTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E407F86E23B88E54002D360C /* LibrarySetup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibrarySetup.h; sourceTree = "<group>"; };
+		E407F86E23B88E54002D360C /* LibraryTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryTemplate.h; sourceTree = "<group>"; };
 		E407F87923B88E7E002D360C /* LibraryTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibraryTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E407F88623B88E95002D360C /* LibraryTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibraryTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E407F89323B88EAF002D360C /* LibraryTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibraryTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,7 +146,7 @@
 		E407F86623B88DC1002D360C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E407F86E23B88E54002D360C /* LibrarySetup.h */,
+				E407F86E23B88E54002D360C /* LibraryTemplate.h */,
 				E407F89F23B89048002D360C /* LibraryTest.swift */,
 				E407F8A423B8916F002D360C /* Supporting Files */,
 			);
@@ -193,7 +193,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E407F87023B88E54002D360C /* LibrarySetup.h in Headers */,
+				E407F87023B88E54002D360C /* LibraryTemplate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +201,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E407F89B23B88FEF002D360C /* LibrarySetup.h in Headers */,
+				E407F89B23B88FEF002D360C /* LibraryTemplate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +209,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E407F89D23B88FF0002D360C /* LibrarySetup.h in Headers */,
+				E407F89D23B88FF0002D360C /* LibraryTemplate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +217,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E407F89E23B89011002D360C /* LibrarySetup.h in Headers */,
+				E407F89E23B89011002D360C /* LibraryTemplate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
