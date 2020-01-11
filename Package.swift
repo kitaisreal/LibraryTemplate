@@ -11,7 +11,7 @@ let package = Package(
     ],
     targets: [
         .target(name: "LibraryTemplate", dependencies: [], path: "Sources"),
-        .testTarget(name: "LibrarySetupTests", dependencies: ["LibraryTemplate"], path: "Tests"),
+        .testTarget(name: "LibraryTemplateTests", dependencies: ["LibraryTemplate"], path: "Tests"),
     ],
     swiftLanguageVersions: [.v5]
 )
